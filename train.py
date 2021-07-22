@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# Set random seed
 seed = 42
 
 # Load in data
@@ -18,17 +18,17 @@ X_train, X_test, y_train, y_test = train_test_split(df, y, test_size=0.8, random
 # Fit a model on the train dataset
 model = LinearRegression()
 model.fit(X_train, y_train)
-#%%
+
 # Report training set score
 train_score = model.score(X_train, y_train) * 100
 # Report test set score
 test_score = model.score(X_test, y_test) * 100
 
 # Write scores to a file
+with open('metrics.txt', 'w') as outfile:
+        outfile.write("Training variance explained: %2.1f%%\n" % train_score)
+        outfile.write("Test variance explained: %2.1f%%\n" % test_score)
 
 #%%
 print(train_score)
 df.shape
-#%%
-print(len(y))
-# %%
