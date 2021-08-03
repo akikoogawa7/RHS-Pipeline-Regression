@@ -1,0 +1,5 @@
+Regression Metrics:
+Fit time: -0.0009341249999579304
+BayesianRidge() training scores: [0.94779509 0.94590147 0.93652292 0.92681717 0.88192634]
+BayesianRidge() testing scores: [0.94779509 0.94590147 0.93652292 0.92681717 0.88192634]
+

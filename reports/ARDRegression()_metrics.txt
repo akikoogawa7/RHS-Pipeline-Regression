@@ -1,0 +1,5 @@
+Regression Metrics:
+Fit time: -0.0009898339999381278
+ARDRegression() training scores: [0.94793862 0.94575337 0.9364898  0.92672183 0.88180566]
+ARDRegression() testing scores: [0.94793862 0.94575337 0.9364898  0.92672183 0.88180566]
+

@@ -19,6 +19,11 @@ models = [
 
 X, y, X_train, y_train, X_test, y_test, X_val, y_val = split_data()
 
+# Create txt file of model performance
+def create_report(model):
+    with open(f'{model}_metrics.txt', 'w') as outfile:
+        outfile.write(f"Regression Metrics:\nFit time: {fit_time}\n{clf} training scores: {train_scores}\n{clf} testing scores: {test_scores}\n\n")
+
 for model in models:
     time_start = perf_counter()
     clf = model
@@ -29,5 +34,4 @@ for model in models:
     train_scores = cross_val_score(clf, X, y, cv=5)
     test_scores = cross_val_score(clf, X, y, cv=5)
     print(f'{clf}\nTrain scores:\n{train_scores}\nTest scores: {test_scores}\nFit time: {fit_time}\n\n')
-    with open('metrics.txt', 'w') as outfile:
-        outfile.write(f"Regression Metrics:\nFit time: {fit_time}\n{clf} training scores: {train_scores}\n{clf} testing scores: {test_scores}\n\n")
+    create_report(model)
