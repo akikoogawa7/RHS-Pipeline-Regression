@@ -1,5 +1,6 @@
 Regression Metrics:
-Fit time: -0.00042937500006701157
-PassiveAggressiveRegressor() training scores: [0.87122168 0.85058579 0.87292712 0.74624229 0.77640351]
-PassiveAggressiveRegressor() testing scores: [0.85899496 0.61142108 0.68082366 0.76812946 0.86067397]
-
+Fit time: -0.00043120800000906456
+PassiveAggressiveRegressor() training scores: [ 0.872105    0.81870994 -5.93549368  0.89654172  0.72138219]
+PassiveAggressiveRegressor() testing scores: [ 0.86610136 -1.88752737  0.66403798  0.82173235  0.73697482]
+Mean train score: -0.5253509649624727
+Mean test score: 0.24026382920737316

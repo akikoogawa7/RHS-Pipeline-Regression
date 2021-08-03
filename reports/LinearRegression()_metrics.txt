@@ -1,5 +1,6 @@
 Regression Metrics:
-Fit time: -0.000991584000075818
+Fit time: -0.0011402920000023187
 LinearRegression() training scores: [0.94779636 0.9458801  0.93652429 0.92682276 0.88193903]
 LinearRegression() testing scores: [0.94779636 0.9458801  0.93652429 0.92682276 0.88193903]
-
+Mean train score: 0.9277925075726732
+Mean test score: 0.9277925075726732
