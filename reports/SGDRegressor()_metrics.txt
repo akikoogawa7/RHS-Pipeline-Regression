@@ -1,7 +1,0 @@
-Regression Metrics:
-Fit time: -0.00500845900000968
-SGDRegressor() training scores: [ 8.60797331e-01 -1.59905839e+17  9.35814702e-01  8.55411415e-01
- -1.62540484e+17]
-SGDRegressor() testing scores: [0.93466293 0.93734936 0.8887966  0.77998714 0.87208183]
-Mean train score: -6.448926451786703e+16
-Mean test score: 0.8825755701253598

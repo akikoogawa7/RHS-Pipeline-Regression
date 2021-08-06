@@ -1,6 +1,0 @@
-Regression Metrics:
-Fit time: -0.2863628750000089
-TheilSenRegressor(max_subpopulation=10000) training scores: [0.86222732 0.86484984 0.81744266 0.88694186 0.8138577 ]
-TheilSenRegressor(max_subpopulation=10000) testing scores: [0.86582432 0.86550197 0.81328014 0.88622508 0.81338111]
-Mean train score: 0.8490638770744059
-Mean test score: 0.8488425253172481

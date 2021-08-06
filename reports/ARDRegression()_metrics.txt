@@ -1,6 +1,0 @@
-Regression Metrics:
-Fit time: -0.006686834000021236
-ARDRegression() training scores: [0.94793862 0.94575337 0.9364898  0.92672183 0.88180566]
-ARDRegression() testing scores: [0.94793862 0.94575337 0.9364898  0.92672183 0.88180566]
-Mean train score: 0.9277418544748836
-Mean test score: 0.9277418544748836
