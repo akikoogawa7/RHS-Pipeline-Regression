@@ -6,8 +6,18 @@ This is based on a [data pipeline](https://github.com/akikoogawa7/RHS-Data-Pipel
 
 ### Target
 The aim is to measure which machine learning models perform best on unseen data. 
-Target variable: max time to ultimate height.
-Features: `'Full Sun', 'Sheltered', 'Generally pest free'`
- the weighting rate of growth in plants and offer realtime predictive analytics on plant-growth/maturity based on its type.
 <br>
-This project involves comparing the model's training scores using linear regression, bayesian ridge regression and polynomial regression.
+Target variable: max time to ultimate height.
+<br>
+Features: `'Full Sun', 'Sheltered', 'Generally pest free'`
+<br>
+This model helps to predict the time it takes for a plant to grow to its maximum height based on the above predictors.
+<br>
+
+### Models
+- Linear regression (baseline)
+- Decision tree regressor
+- K nearest neighbors regressor
+- Ridge regression
+
+### Results
