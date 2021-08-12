@@ -21,3 +21,9 @@ This model helps to predict the time it takes for a plant to grow to its maximum
 - Ridge regression
 
 ### Results
+Model | Hyperparameter | Training Score | Validation Score | R2 Score
+--- | --- | --- | ---
+Linear Regression (baseline) | - |  0.021 | -0.029 | -0.018
+Decision Tree Regressor | criterion='mse' | 0.028 | -0.021 | -0.010
+KNN | n_neighbors=4 | -0.20 | -0.184 | -0.188
+Ridge Regression | alpha=0.1 | 0.021 | -0.029 | -0.0183
